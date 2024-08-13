@@ -1,0 +1,120 @@
+div {
+  border: 1px red solid;
+}
+
+html, body, #home {
+  height: 98%;
+  border: 1px solid blue;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background: url(..//imagens/capa.png), url(..//imagens/ruido.png), linear-gradient(50deg, #061f09, #1e0441);
+  background-attachment: fixed;
+}
+
+.navegacao {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(8, 218, 8);
+  border-radius: 10px;
+}
+
+#nav-principal a:hover::after {
+  background-color: rgb(8, 218, 8);
+  width: 100%;
+}
+#nav-principal a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  -webkit-transition: 0.7s ease-out;
+  transition: 0.7s ease-out;
+}
+
+.entrar:hover::after {
+  background-color: green;
+}
+
+li a {
+  margin-left: 8px;
+}
+
+.divisor {
+  width: 1px;
+  margin: 11px 12px;
+  background: white;
+}
+
+#home h2 {
+  letter-spacing: -2px;
+  font-weight: 330;
+}
+#home a {
+  padding: 15px;
+}
+#home a:hover {
+  color: black;
+}
+#home .conteudo {
+  margin-top: 180px;
+}
+#home p {
+  color: white;
+  font-size: 18px;
+}
+
+small {
+  color: white;
+  margin-left: 10px;
+}
+
+#servicos {
+  background-color: black;
+  color: white;
+}
+
+#recursos .rotacionarImg {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  padding-left: 50px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 7em;
+  }
+}
